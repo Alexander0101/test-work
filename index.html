@@ -12,7 +12,7 @@
 	<header>
 		<div class="contact">
 			<div class="container">
-				<div class="flex-container">
+				<div class="flex-container contact-other">
 					<div>
 						<span>Время работы: Пн-Сб 8.00-18.00</span>
 					</div>
@@ -34,7 +34,7 @@
 		</div>
 		<div class="menu">
 			<div class="container">
-				<div class="flex-container">
+				<div class="flex-container menu-other">
 					<div class="logo">
 						<a href="#">
 							<img src="images/logo.png" alt="logo">
@@ -50,12 +50,26 @@
 						<a href="#">НОВОСТИ</a>
 						<a href="#">КОНТАКТЫ</a>
 					</div>
+					<div class="mobile-menu">
+				        <label for="menu-toggle"><img src="images/menu.svg" alt="menu"></label>
+				        <input id="menu-toggle" type="checkbox" hidden>
+				        <div class="dropdown-menu">
+				          	<a href="#">ГЛАВНАЯ</a>
+							<a href="#">О НАС</a>
+							<a href="#">КАТАЛОГ</a>
+							<a href="#">ОПЛАТА И ДОСТАВКА</a>
+							<a href="#">ГАРАНТИЯ</a>
+							<a href="#">СТАТЬИ</a>
+							<a href="#">НОВОСТИ</a>
+							<a href="#">КОНТАКТЫ</a>
+				        </div> 
+				    </div>
 				</div>
 			</div>
 		</div>
 		<div class="catalog">
 			<div class="container">
-				<div class="flex-container">
+				<div class="flex-container flex-column">
 					<div>
 						<button class="btn btn-products">
 							<img src="images/burger.png" alt="burger">
@@ -308,7 +322,7 @@
 					<a href="#">
 						<img src="images/logo.png" alt="logo">
 					</a>
-					<p><b>USD:</b> 26.800 <b>EUR:</b> 30.000</p>
+					<p class="footer-container-money"><b>USD:</b> 26.800 <b>EUR:</b> 30.000</p>
 				</div>
 				<div>
 					<a href="#">ГЛАВНАЯ</a>
@@ -328,7 +342,7 @@
 					<a href="mailto:contact@gmail.com.ua">contact@gmail.com.ua</a>
 					<a href="#">Время работы: Пн-Сб 8.00-18.00</a>
 				</div>
-				<div>
+				<div class="footer-none">
 					<p>Подпишитесь на наши новости и акции</p>
 					<div class="footer-send">
 						<input type="text">
